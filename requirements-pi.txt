@@ -1,0 +1,4 @@
+# Install ON THE RASPBERRY PI ONLY, after installing requirements.txt:
+#   pip install -r requirements-pi.txt
+# RPi.GPIO does not install on x86 laptops.
+RPi.GPIO>=0.7

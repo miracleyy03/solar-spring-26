@@ -1,0 +1,7 @@
+# Core dependencies - work on every platform (laptop, Pi, CI)
+opencv-python>=4.5
+numpy>=1.20
+pysolar>=0.10        # optional - sun_ephemeris falls back to built-in NOAA formulae if absent
+
+# Optional - only needed if you want the live preview window
+# matplotlib>=3.5
